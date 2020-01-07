@@ -1,0 +1,42 @@
+/* Color Style */
+.WP_AFRAEX .text-danger {
+    color: #DC3545;
+}
+
+.WP_AFRAEX .text-primary {
+    color: #007BFF;
+}
+
+.WP_AFRAEX .text-success {
+    color: #28A745;
+}
+
+.WP_AFRAEX .text-warning {
+    color: #c1950f;
+}
+
+.WP_AFRAEX .text-muted {
+    color: #6d6d6d;
+}
+
+/* Dashicon logo */
+.WP_AFRAEX span.dashicons-randomize {
+    font-size: 25px;
+    margin-right: 5px;
+    vertical-align: -4px;
+}
+
+/* add cursor */
+.WP_AFRAEX .cursor-pointer {
+    cursor: pointer;
+}
+
+/* Top Content wp list table */
+.wlt-top-content {
+    width: 95.5%;
+    min-height: 150px;
+    margin: 25px 10px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}

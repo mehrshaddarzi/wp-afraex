@@ -1,0 +1,182 @@
+/* ================================================================================================
+// 	File Name: Style.scss
+// 	Description: RTL Style for customization.
+// 	----------------------------------------------------------------------------------------------
+// 	Item Name: Chameleon Admin - Modern Bootstrap 4 WebApp & Dashboard HTML Template + UI Kit
+// 	Version: 1.0
+// 	Author: ThemeSelection
+// 	Author URL: https://themeselection.com/
+// ================================================================================================
+
+NOTE:
+------
+A FILE FOR RTL SUPPORT RELATED ONLY
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../../iransans/eot/IRANSansWeb_Black.eot');
+    src: url('../../iransans/eot/IRANSansWeb_Black.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../iransans/woff2/IRANSansWeb_Black.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../iransans/woff/IRANSansWeb_Black.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../iransans/ttf/IRANSansWeb_Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../iransans/eot/IRANSansWeb_Bold.eot');
+    src: url('../../iransans/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../iransans/woff2/IRANSansWeb_Bold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../iransans/woff/IRANSansWeb_Bold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../iransans/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../../iransans/eot/IRANSansWeb_Medium.eot');
+    src: url('../../iransans/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../iransans/woff2/IRANSansWeb_Medium.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../iransans/woff/IRANSansWeb_Medium.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../iransans/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../../iransans/eot/IRANSansWeb_Light.eot');
+    src: url('../../iransans/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../iransans/woff2/IRANSansWeb_Light.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../iransans/woff/IRANSansWeb_Light.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../iransans/ttf/IRANSansWeb_Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 200;
+    src: url('../../iransans/eot/IRANSansWeb_UltraLight.eot');
+    src: url('../../iransans/eot/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../iransans/woff2/IRANSansWeb_UltraLight.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../iransans/woff/IRANSansWeb_UltraLight.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../iransans/ttf/IRANSansWeb_UltraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../iransans/eot/IRANSansWeb.eot');
+    src: url('../../iransans/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../iransans/woff2/IRANSansWeb.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../iransans/woff/IRANSansWeb.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../iransans/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+body {
+    font-family: IRANSans, tahoma !important;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6, .header-navbar {
+    font-family: IRANSans, tahoma !important;
+}
+
+.navigation, .navigation .navigation-header {
+    font-family: IRANSans, tahoma !important;
+    font-size: 1rem;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.pad-label {
+    padding-top: 0.5rem;
+}
+
+.submit-icon-vertical {
+    vertical-align: -0.3rem;
+}
+
+.rtl {
+    direction: rtl;
+}
+
+.ltr {
+    direction: ltr;
+}
+
+.text-sm-right {
+    text-align: right !important;
+}
+
+.text-sm-left {
+    text-align: left !important;
+}
+
+.float-sm-right {
+    float: right !important;
+}
+
+.float-sm-left {
+    float: left !important;
+}
+
+/*Change Active Menu Color*/
+.main-menu.menu-light .navigation > li.active > a, .main-menu.menu-light .navigation > li.hover > a, .main-menu.menu-light .navigation > li.open > a, .main-menu.menu-light .navigation > li:hover > a {
+    color: #7962fa;
+}
+
+/*Sweet Alert*/
+.swal-footer {
+    text-align: center !important;
+}
+
+.swal-button {
+    background-color: #63d457 !important;
+    margin: 0px auto !important;
+}
+
+/*letter spacing*/
+.card .card-title, .btn, .content .content-wrapper .content-header-title {
+    letter-spacing: 0 !important;
+}
+
+/*Remove Chat Background*/
+.chat-application .chat-app-window {
+    background-image: none !important;
+    background: #221469;
+    height: calc(100% - 75px);
+}
+
+/* Backgrond */
+body.horizontal-layout[data-color=bg-gradient-x-purple-blue] .content-wrapper-before, body.horizontal-layout[data-color=bg-gradient-x-purple-blue] .navbar-horizontal, body.vertical-layout[data-color=bg-gradient-x-purple-blue] .content-wrapper-before, body.vertical-layout[data-color=bg-gradient-x-purple-blue] .navbar-container, button[data-change_price_form] {
+    background-image: -webkit-gradient(linear, right top, left top, from(#28008a), to(#272727));
+    background-image: -webkit-linear-gradient(right, #28008a, #272727);
+    background-image: -moz-linear-gradient(right, #28008a, #272727);
+    background-image: -o-linear-gradient(right, #28008a, #272727);
+    background-image: linear-gradient(to left, #28008a, #272727) !important;
+}
+
+/* Form Wizard */
+.app-content .wizard > .steps > ul > li.current .step {
+    color: #fefeff !important;
+    background-color: #27057d !important;
+}
+
+.app-content .wizard > .steps > ul > li:after, .app-content .wizard > .steps > ul > li:before {
+    background-color: #28067b !important;
+}
+
+.app-content .wizard > .steps > ul > li.done .step {
+    color: #fff;
+    background-color: #15004a !important;
+}
+
+/* Change Background in Mobile */
+@media (max-width: 992px) {
+
+    .content-wrapper, .app-content {
+        background-image: -webkit-gradient(linear, right top, left top, from(#28008a), to(#272727));
+        background-image: -webkit-linear-gradient(right, #28008a, #272727);
+        background-image: -moz-linear-gradient(right, #28008a, #272727);
+        background-image: -o-linear-gradient(right, #28008a, #272727);
+        background-image: linear-gradient(to left, #28008a, #272727) !important;
+    }
+
+}
+

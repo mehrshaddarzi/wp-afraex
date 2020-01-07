@@ -1,0 +1,659 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress User Panel\n"
+"POT-Creation-Date: 2020-01-06 09:57+0330\n"
+"PO-Revision-Date: 2020-01-06 09:57+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-afraex.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/admin/admin.php:94
+#, php-format
+msgid "Your order status with %1$s ID Changed from %2$s to %3$s"
+msgstr "وضعیت سفارش شما با شناسه %1$s از %2$s به %3$s تغییر یافت"
+
+#: inc/admin/admin.php:142
+msgid "The ratio of units to each other"
+msgstr "واحد تبدیل هر ارز به یک دیگر"
+
+#: inc/admin/admin.php:236
+msgid "Please enter the currency symbol name"
+msgstr "لطفا نشانه انگلیسی ارز را وارد کنید مثلا BTC"
+
+#: inc/admin/admin.php:247 inc/admin/admin.php:248 inc/admin/admin.php:263
+msgid "Currency"
+msgstr "ارز"
+
+#: inc/admin/admin.php:249 inc/admin/admin.php:252
+msgid "New Currency"
+msgstr "ارز جدید"
+
+#: inc/admin/admin.php:250
+msgid "Add New Currency"
+msgstr "افزودن ارز جدید"
+
+#: inc/admin/admin.php:251
+msgid "Edit Currency"
+msgstr "ویرایش ارز"
+
+#: inc/admin/admin.php:253
+msgid "All Currency"
+msgstr "تمامی ارز ها"
+
+#: inc/admin/admin.php:254
+msgid "Show Currency"
+msgstr "نمایش ارز"
+
+#: inc/admin/admin.php:255
+msgid "Search in Currency"
+msgstr "جستجو در ارز"
+
+#: inc/admin/admin.php:256
+msgid "Not found Any Currency"
+msgstr "هیچ ارزی یافت نشد"
+
+#: inc/admin/admin.php:257
+msgid "Not found any Currency in Trash"
+msgstr "هیچ ارزی در سطل آشغال یافت نشد"
+
+#: inc/admin/admin.php:258
+msgid "Parent Currency"
+msgstr "ارز والد"
+
+#: inc/admin/admin.php:259
+msgid "Currencies"
+msgstr "ارز ها"
+
+#: inc/admin/admin.php:289 inc/admin/admin.php:290 inc/admin/admin.php:305
+#: templates/user-panel/process.php:214
+msgid "Order"
+msgstr "سفارش"
+
+#: inc/admin/admin.php:291 inc/admin/admin.php:294
+msgid "New Order"
+msgstr "سفارش جدید"
+
+#: inc/admin/admin.php:292
+msgid "Add New Order"
+msgstr "سفارش جدید"
+
+#: inc/admin/admin.php:293
+msgid "Edit Order"
+msgstr "ویرایش اطلاعات"
+
+#: inc/admin/admin.php:295
+msgid "All Order"
+msgstr "تمامی سفارش ها"
+
+#: inc/admin/admin.php:296
+msgid "Show Order"
+msgstr "نمایش سفارش ها"
+
+#: inc/admin/admin.php:297
+msgid "Search in Order"
+msgstr "جستجو در سفارش ها"
+
+#: inc/admin/admin.php:298
+msgid "Not found Any Order"
+msgstr "هیچ سفارشی یافت نشد"
+
+#: inc/admin/admin.php:299
+msgid "Not found any Order in Trash"
+msgstr "هیچ سفارشی یافت نشد"
+
+#: inc/admin/admin.php:300
+msgid "Parent Order"
+msgstr "سفارش والد"
+
+#: inc/admin/admin.php:301
+msgid "Orders"
+msgstr "سفارشات"
+
+#: inc/admin/admin.php:341
+msgid "Canceled"
+msgstr "لغو شد"
+
+#: inc/admin/admin.php:343
+#, php-format
+msgid "Canceled <span class=\"count\">(%s)</span>"
+msgid_plural "Canceled <span class=\"count\">(%s)</span>"
+msgstr[0] "لغو شده <span class=\"count\">(%s)</span>"
+msgstr[1] "لغو شده <span class=\"count\">(%s)</span>"
+
+#: inc/admin/admin.php:352
+msgid "Completed"
+msgstr "تکمیل شد"
+
+#: inc/admin/admin.php:354
+#, php-format
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgstr[0] "تکمیل شده <span class=\"count\">(%s)</span>"
+msgstr[1] "تکمیل شده <span class=\"count\">(%s)</span>"
+
+#: inc/admin/admin.php:363
+msgid "Doing"
+msgstr "در حال انجام"
+
+#: inc/admin/admin.php:365
+#, php-format
+msgid "Doing <span class=\"count\">(%s)</span>"
+msgid_plural "Doing <span class=\"count\">(%s)</span>"
+msgstr[0] "در حال انجام  <span class=\"count\">(%s)</span>"
+msgstr[1] "در حال انجام  <span class=\"count\">(%s)</span>"
+
+#: inc/admin/admin.php:381
+msgid "User"
+msgstr "کاربر"
+
+#: inc/admin/admin.php:382 templates/user-panel/pages/my_order.php:79
+msgid "From"
+msgstr "از"
+
+#: inc/admin/admin.php:383 templates/user-panel/pages/my_order.php:80
+msgid "Price"
+msgstr "مبلغ"
+
+#: inc/admin/admin.php:384 templates/user-panel/pages/my_order.php:81
+msgid "To"
+msgstr "به"
+
+#: inc/admin/admin.php:385
+msgid "Calculate"
+msgstr "مبلغ تبدیل"
+
+#: inc/admin/admin.php:386 templates/user-panel/pages/my_order.php:83
+msgid "Status"
+msgstr "وضعیت"
+
+#: inc/admin/admin.php:387
+msgid "Wallet"
+msgstr "کیف پول"
+
+#: inc/admin/admin.php:438
+msgid "Card List"
+msgstr "لیست کارت های بانکی"
+
+#: inc/admin/admin.php:439 templates/user-panel/pages/profile.php:89
+#: templates/user-panel/pages/profile.php:92
+msgid "Mobile"
+msgstr "موبایل"
+
+#: inc/admin/admin.php:468 templates/user-panel/pages/new_bank_card.php:57
+#: templates/user-panel/pages/new_bank_card.php:183
+#: templates/user-panel/pages/new_bank_card.php:285
+msgid "Bank Name"
+msgstr "نام بانک"
+
+#: inc/admin/admin.php:469 templates/user-panel/pages/new_bank_card.php:92
+#: templates/user-panel/pages/new_bank_card.php:219
+#: templates/user-panel/pages/new_bank_card.php:286
+msgid "Card Number"
+msgstr "شماره کارت"
+
+#: inc/admin/admin.php:470 templates/user-panel/pages/new_bank_card.php:76
+#: templates/user-panel/pages/new_bank_card.php:203
+#: templates/user-panel/pages/new_bank_card.php:287
+msgid "Sheba Number"
+msgstr "شماره شبا"
+
+#: inc/admin/admin.php:488
+msgid "Show"
+msgstr "نمایش"
+
+#: inc/admin/admin.php:562 inc/page_template.php:58
+msgid "User Panel"
+msgstr "پنل کاربری"
+
+#: inc/admin/settings.php:64
+msgid "General"
+msgstr "عمومی"
+
+#: inc/admin/settings.php:68
+msgid "Basic email settings"
+msgstr "تنظیمات پایه ایمیل"
+
+#: inc/admin/settings.php:69 templates/user-panel/dashboard.php:88
+#: templates/user-panel/forget.php:108
+#: templates/user-panel/pages/profile.php:53
+#: templates/user-panel/register.php:99
+msgid "Email"
+msgstr "پست الکترونیک"
+
+#: inc/admin/settings.php:73
+msgid "Help"
+msgstr "کمک"
+
+#: inc/admin/settings.php:103
+msgid "Logo"
+msgstr "لوگو"
+
+#: inc/admin/settings.php:104
+msgid "Dashboard Logo"
+msgstr "لوگو داشبورد"
+
+#: inc/admin/settings.php:108
+msgid "Choose Image"
+msgstr "انتخاب عکس"
+
+#: inc/admin/settings.php:113
+msgid "Bank List"
+msgstr "لیست بانک"
+
+#: inc/admin/settings.php:114
+msgid "Please enter a bank name on each line"
+msgstr "لطفا در هر خط یک بانک را وارد کنید"
+
+#: inc/admin/settings.php:119
+msgid "Chat operator user"
+msgstr "انتخاب کاربر اپراتور چت پشتیبان"
+
+#: inc/admin/settings.php:127
+msgid "Rial currency"
+msgstr "ارز ریال"
+
+#: inc/admin/settings.php:140
+msgid "From Email"
+msgstr "پست الکترونیک"
+
+#: inc/admin/settings.php:146
+msgid "From Name"
+msgstr "نام"
+
+#: inc/admin/settings.php:152
+msgid "Email Logo"
+msgstr "لوگو ایمیل"
+
+#: inc/admin/settings.php:158
+msgid "Email Footer Text"
+msgstr "متن فوتر ایمیل"
+
+#: inc/admin/settings.php:166
+msgid "Create Page"
+msgstr "ایجاد صفحه"
+
+#: inc/admin/settings.php:167
+msgid "Please Create a WordPress page and Set Page Template User Panel"
+msgstr "برای ایجاد صفحه کافیست یک برگه بسازید و روی قالب پنل من انتخاب نمایید"
+
+#: inc/admin/views/default.php:3
+msgid "Page name"
+msgstr "عنوان صفحه"
+
+#: inc/admin/views/default.php:5
+msgid "Add New"
+msgstr "افزودن جدید"
+
+#: inc/ajax.php:51
+msgid "Please enter the amount of currency"
+msgstr "لطفا مقدار عدد وارد نمایید"
+
+#: inc/ajax.php:56 inc/ajax.php:71 templates/user-panel/process.php:98
+#: templates/user-panel/process.php:115
+msgid "Invalid request"
+msgstr "درخواست نامعتبر"
+
+#: inc/core/settingapi.php:393
+msgid "Choose File"
+msgstr "انتخاب فایل"
+
+#: inc/core/template.php:72
+msgid "Template Shortlink Not Found"
+msgstr "فایل تمپلت یافت نشد"
+
+#: templates/user-panel/dashboard.php:17
+msgid "My Dashboard"
+msgstr "میز کار"
+
+#: templates/user-panel/dashboard.php:21
+msgid "My Exchange List"
+msgstr "لیست تبادلات من"
+
+#: templates/user-panel/dashboard.php:25
+msgid "Add a bank card"
+msgstr "افزودن کارت بانکی"
+
+#: templates/user-panel/dashboard.php:29
+msgid "Support Tickets"
+msgstr "تیکت های پشتیبانی"
+
+#: templates/user-panel/dashboard.php:33
+msgid "My Account Information"
+msgstr "اطلاعات حساب من"
+
+#: templates/user-panel/dashboard.php:37
+msgid "logout"
+msgstr "خروج"
+
+#: templates/user-panel/dashboard.php:66
+msgid "This email has already been registered"
+msgstr "این ایمیل قبلا به ثبت رسیده است"
+
+#: templates/user-panel/dashboard.php:84 templates/user-panel/dashboard.php:126
+msgid "Hi,"
+msgstr "سلام,"
+
+#: templates/user-panel/dashboard.php:86
+msgid "Your registration has been successful"
+msgstr "ثبت نام شما با موفقیت انجام شد"
+
+#: templates/user-panel/dashboard.php:90
+msgid "Password"
+msgstr "رمز عبور"
+
+#: templates/user-panel/dashboard.php:91 templates/user-panel/register.php:65
+msgid "Register in Site"
+msgstr "ثبت نام در سایت"
+
+#: templates/user-panel/dashboard.php:116
+msgid "No user found with this email"
+msgstr "هیچ کاربری با این ایمیل یافت نشد"
+
+#: templates/user-panel/dashboard.php:128
+msgid "Click the link below to recover your password"
+msgstr "برای تغییر رمز عبور بر روی لینک زیر کلیک کنید"
+
+#: templates/user-panel/dashboard.php:130
+msgid "View Link"
+msgstr "نمایش لینک"
+
+#: templates/user-panel/dashboard.php:131 templates/user-panel/forget.php:10
+#: templates/user-panel/forget.php:65
+msgid "Recover Password"
+msgstr "بازیابی رمز عبور"
+
+#: templates/user-panel/dashboard.php:134
+msgid "The password change link was sent to your email"
+msgstr "پیوند تغییر رمز عبور برای ایمیل شما ارسال شد"
+
+#: templates/user-panel/dashboard.php:148
+msgid "Your password has been successfully changed"
+msgstr "پسوورد شما با موفقیت تغییر یافت"
+
+#: templates/user-panel/forget.php:115
+msgid "Reset Password"
+msgstr "بازیابی رمز عبور"
+
+#: templates/user-panel/forget.php:126
+#: templates/user-panel/pages/profile.php:188
+#: templates/user-panel/pages/profile.php:191
+msgid "New Password"
+msgstr "رمز عبور جدید"
+
+#: templates/user-panel/forget.php:126
+#: templates/user-panel/pages/profile.php:191
+#: templates/user-panel/pages/profile.php:203
+#: templates/user-panel/register.php:106
+msgid "8 characters minimum"
+msgstr "حداقل 8 کاراکتر"
+
+#: templates/user-panel/forget.php:133
+#: templates/user-panel/pages/profile.php:130
+msgid "Change Password"
+msgstr "تغییر رمز عبور"
+
+#: templates/user-panel/forget.php:143 templates/user-panel/register.php:118
+msgid "Login to Site"
+msgstr "ورود به سیستم"
+
+#: templates/user-panel/login.php:10 templates/user-panel/login.php:123
+msgid "Login"
+msgstr "ورود کاربران"
+
+#: templates/user-panel/login.php:65
+msgid "Member Login"
+msgstr "ورود کاربران"
+
+#: templates/user-panel/login.php:84
+msgid "You are successfully logged out."
+msgstr "شما با موفقیت خارج شده اید."
+
+#: templates/user-panel/login.php:105
+msgid "Your Username Or Email"
+msgstr "ایمیل یا نام کاربری"
+
+#: templates/user-panel/login.php:111 templates/user-panel/register.php:106
+msgid "Enter Password"
+msgstr "رمز عبور"
+
+#: templates/user-panel/login.php:119
+msgid "Forgot Password?"
+msgstr "رمز عبور خود را فراموش کرده ام ؟"
+
+#: templates/user-panel/login.php:128
+msgid "Don't have an account ?"
+msgstr "آیا اکانت برای خود ندارید ؟"
+
+#: templates/user-panel/login.php:128
+msgid "Sign Up"
+msgstr "ثبت نام کنید"
+
+#: templates/user-panel/pages/my_order.php:53
+msgid "You haven't made any exchanges yet"
+msgstr "هنوز هیچ تبادلی انجام نداده اید"
+
+#: templates/user-panel/pages/my_order.php:77
+msgid "Order id"
+msgstr "شناسه سفارش"
+
+#: templates/user-panel/pages/my_order.php:78
+msgid "Date"
+msgstr "تاریخ"
+
+#: templates/user-panel/pages/my_order.php:82
+msgid "Exchange"
+msgstr "مبادله"
+
+#: templates/user-panel/pages/my_order.php:138
+msgid "Description"
+msgstr "توضیحات"
+
+#: templates/user-panel/pages/my_order.php:158
+msgid "Your Wallet"
+msgstr "کیف پول شما"
+
+#: templates/user-panel/pages/my_order.php:192
+msgid "Prev"
+msgstr "قبلی"
+
+#: templates/user-panel/pages/my_order.php:193
+msgid "Next"
+msgstr "بعدی"
+
+#: templates/user-panel/pages/new_bank_card.php:9
+#: templates/user-panel/pages/new_bank_card.php:116
+msgid "Add Bank Card"
+msgstr "افزودن کارت بانکی"
+
+#: templates/user-panel/pages/new_bank_card.php:39
+#: templates/user-panel/pages/profile.php:35
+#: templates/user-panel/pages/profile.php:159
+msgid "OK"
+msgstr "خب"
+
+#: templates/user-panel/pages/new_bank_card.php:104
+#: templates/user-panel/pages/new_bank_card.php:231
+msgid "Full Name"
+msgstr "نام و نام خانوادگی"
+
+#: templates/user-panel/pages/new_bank_card.php:142
+#: templates/user-panel/pages/new_bank_card.php:243
+msgid "Edit Bank Card"
+msgstr "ویرایش کارت بانکی"
+
+#: templates/user-panel/pages/new_bank_card.php:268
+msgid "Bank Card List"
+msgstr "لیست کارت های بانکی"
+
+#: templates/user-panel/pages/new_bank_card.php:300
+msgid "Edit"
+msgstr "ویرایش"
+
+#: templates/user-panel/pages/new_bank_card.php:301
+msgid "Remove"
+msgstr "حذف"
+
+#: templates/user-panel/pages/profile.php:6
+msgid "Edit Profile"
+msgstr "ویرایش اطلاعات"
+
+#: templates/user-panel/pages/profile.php:65
+#: templates/user-panel/pages/profile.php:68
+#: templates/user-panel/register.php:85
+msgid "First Name"
+msgstr "نام"
+
+#: templates/user-panel/pages/profile.php:77
+#: templates/user-panel/pages/profile.php:80
+#: templates/user-panel/register.php:92
+msgid "Last Name"
+msgstr "نام خانوادگی"
+
+#: templates/user-panel/pages/profile.php:113
+#: templates/user-panel/pages/profile.php:215
+msgid "Save"
+msgstr "ذخیره"
+
+#: templates/user-panel/pages/profile.php:176
+#: templates/user-panel/pages/profile.php:179
+msgid "Current Password"
+msgstr "رمز عبور فعلی"
+
+#: templates/user-panel/pages/profile.php:200
+#: templates/user-panel/pages/profile.php:203
+msgid "Repeat New Password"
+msgstr "تکرار رمز عبور جدید"
+
+#: templates/user-panel/pages/ticket.php:119
+msgid "Chat history"
+msgstr "تاریخچه گفتگو"
+
+#: templates/user-panel/pages/ticket.php:211
+msgid "Message text"
+msgstr "متن پیام"
+
+#: templates/user-panel/pages/ticket.php:219
+msgid "Send"
+msgstr "ارسال"
+
+#: templates/user-panel/panel-notification.php:11
+msgid "You have an unread message"
+msgstr "شما یک پیام خوانده نشده دارید"
+
+#: templates/user-panel/panel-notification.php:37
+msgid "Notifications"
+msgstr "اعلان ها"
+
+#: templates/user-panel/panel-notification.php:73
+msgid "Read all"
+msgstr "همه را خواندم"
+
+#: templates/user-panel/panel.php:12
+msgid "Dashboard"
+msgstr "داشبورد"
+
+#: templates/user-panel/panel.php:130
+msgid "My Profile"
+msgstr "پروفایل من"
+
+#: templates/user-panel/panel.php:132
+msgid "Support Ticket"
+msgstr "تیکت پشتیبانی"
+
+#: templates/user-panel/panel.php:135
+msgid "Logout"
+msgstr "خروج"
+
+#: templates/user-panel/panel.php:173
+msgid "All rights reserved"
+msgstr "تمامی حقوق مادی و معنوی محفوظ است"
+
+#: templates/user-panel/process.php:16
+msgid "The previous password is incorrect"
+msgstr "پسورد قدیمی شما اشتباه هست"
+
+#: templates/user-panel/process.php:22
+msgid "The new password you entered is not the same"
+msgstr "رمز عبور های جدید وارد شده یکسان نمی باشد"
+
+#: templates/user-panel/process.php:33
+msgid "New password changed successfully"
+msgstr "رمز شما با موفقیت تغییر یافت"
+
+#: templates/user-panel/process.php:55
+msgid "User info successfully edited"
+msgstr "اطلاعات کاربری با موفقیت ویرایش شد"
+
+#: templates/user-panel/process.php:74
+msgid "Bank card added successfully"
+msgstr "کارت بانکی با موفقیت اضافه شد"
+
+#: templates/user-panel/process.php:96
+msgid "Bank card information successfully edited"
+msgstr "اطلاعات کارت بانکی با موفقیت ویرایش شد"
+
+#: templates/user-panel/process.php:113
+msgid "Bank card successfully removed"
+msgstr "کارت بانکی با موفقیت حذف شد"
+
+#: templates/user-panel/register.php:10 templates/user-panel/register.php:113
+msgid "Register"
+msgstr "ثبت نام"
+
+#: wp-afraex.php:242
+msgid "Your installed PHP Version is"
+msgstr "شما باید ورژن php زیر را نصب کنید"
+
+#: wp-afraex.php:243
+msgid "The <strong>WP Afraex</strong> plugin requires PHP version <strong>"
+msgstr ""
+
+#: wp-afraex.php:243
+msgid "</strong> or greater."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WordPress User Panel"
+msgstr "پنل کاربری وردپرس"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://realwp.net"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A Plugin For Create Easy User Panel"
+msgstr "یک افزونه برای ایجاد پنل کاربری"
+
+#. Author of the plugin/theme
+msgid "Mehrshad Darzi"
+msgstr "مهرشاد درزی"
+
+#~ msgid "There are no orders"
+#~ msgstr "هیچ سفارشی وجود ندارد"
+
+#~ msgid "Avatar"
+#~ msgstr "آواتار"
+
+#~ msgid "Use the Gravatar service to change your profile picture"
+#~ msgstr "برای تغییر تصویر پروفایل از سرویس گراوتار آن را  تغییر دهید"
+
+#~ msgid "Exit"
+#~ msgstr "خروج"
+
+#~ msgid "Recovery Password"
+#~ msgstr "بازیابی رمز عبور"
