@@ -1,9 +1,3 @@
-# Easy WordPress Plugin Starter For Developer
+# WP-Afraex
 
-## How To install
-
-````
-1 . Replace folder and base php file name
-2 . Replace WP_AFRAEX To new Class name
-3 . Replace wp-afraex to new name
-````
+Copy `app-assets` dir to `templates/user-panel` from `chameleon-admin-template` RTL version.
